@@ -10,3 +10,5 @@ console.log(str2);
 
 //Ejercicio 2
 
+let str3 = "convertire todo a mayusculas"
+console.log(str3.toUpperCase());

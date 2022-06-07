@@ -1,21 +1,15 @@
-const name = "Edison Proaño";
-console.log(typeof name);
+const listaElementos = [
+    "Edison",
+    32,
+    true,
+    new Date(1990, 11 ,19),
+    {
+        titulo: "Steve Jobs: Biografia",
+        autor: "WALTER ISAACSON",
+        fecha: new Date(2011, 10, 24),
+        url: "https://www.amazon.com/-/es/Walter-Isaacson/dp/030795028X"
+    }
+];
 
-const edad = 32;
-console.log(typeof edad);
+console.log(listaElementos);
 
-const eresDesarrollador = true;
-console.log(typeof eresDesarrollador);
-
-const fechaNacimiento = new Date("November 19 1990");
-console.log(fechaNacimiento);
-console.log(typeof fechaNacimiento);
-
-const libroFavorito = {
-  titulo: "Steve Jobs: Biografia",
-  autor: "WALTER ISAACSON",
-  fecha: "24 de Octubre del 2011",
-  url: "https://www.amazon.com/-/es/Walter-Isaacson/dp/030795028X"
-}
-
-console.log(typeof libroFavorito);

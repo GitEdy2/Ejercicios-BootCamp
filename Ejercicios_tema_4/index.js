@@ -1,14 +1,25 @@
-//Ejercicio 1
+const nombre = 'Edison';
+const apellido = 'Proano';
+const estudiante = nombre.concat(' ').concat(apellido);
 
-let str = "El perro de mi vecina es muy molesto";
-console.log(str);
+const estudianteMayus = estudiante.toUpperCase();
 
-let str2 = str.replace("vecina", "vecino");
-console.log(str2);
+const estudianteMinus = estudiante.toLowerCase();
 
-//--------------------------------------------------------
+const estudianteLength = estudiante.length;
 
-//Ejercicio 2
+const nombrePrimeraLetra = nombre[0];
 
-let str3 = "convertire todo a mayusculas"
-console.log(str3.toUpperCase());
+const apellidoFinalLetra = apellido[apellido.length - 1];
+
+const estudianteSinEspacios = estudiante.replace(' ','');
+
+const nombreEstudiante = estudiante.includes(nombre);
+
+
+
+
+
+
+
+

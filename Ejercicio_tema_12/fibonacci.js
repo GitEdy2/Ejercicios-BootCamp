@@ -10,4 +10,4 @@ function Fibonacci(num) {
     return list;
 }
 
-console.log(Fibonacci(12))
+console.log(Fibonacci(10))
